@@ -1,0 +1,221 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+div.title_menu{
+  margin:0 auto;
+  margin-left: 260px;
+  height:400px;
+  padding:40px;
+  font:24px'Arial';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size:cover;
+  line-height:28px;
+    width: calc(100% - 260px);
+
+    color:#fff;
+    background-image:url(../picture/garden.jpg);
+    text-shadow:5px 4px 5px #575353;
+    font-weight: bold;
+
+
+
+}
+div.title_menu >img {
+  max-width: 100%;
+  max-height: 100%;
+
+
+
+}
+
+div.title_menu a{
+  /* border: 1px solid blue; */
+  position: absolute;
+  top:20px;
+  left:60%;
+  max-width: 250px;
+  /* display: none; */
+}
+
+div.title_menu a img{
+  width: 250px;
+
+}
+
+@media all and (max-width:767px){
+  div.title_menu{
+    width:100%;
+    margin-left: 0px;
+    height: 300px;
+
+  }
+  div.title_block{
+  position: absolute;
+  /* border:1px solid yellow; */
+  /* top:50px; */
+  margin-left: 0;
+  display: block;
+  top:110%;
+  text-align:center;
+  left:20%;
+  vertical-align:middle;
+
+
+  max-width: 500px;
+  height: 200px;
+
+  }
+
+  div.title_menu >img {
+    max-width: none;
+
+    max-height: 100%;
+
+
+
+  }
+
+  div.title_menu a{
+    /* border: 1px solid blue; */
+    position: absolute;
+    display: block;
+    top:50px;
+    text-align:center;
+    left:20%;
+    vertical-align:middle;
+  }
+
+  div.title_menu a img{
+    width: 300px;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+main.main{
+  /* border: 1px solid blue; */
+
+  width: calc(100% - var(--aside-width));
+  margin-left: var(--aside-width);
+  min-height: calc(100vh - var(--header-height));
+  background-color: #b4a993;
+
+  padding: 20px;
+}
+
+@media all and (max-width:767px){
+  main.main{
+    margin-left:0;
+    width: 100%;
+  }
+}
+
+div.word{
+  vertical-align: middle;
+  text-align:center;
+}
+
+div.word h2{
+  vertical-align: middle;
+  text-align:center;
+  left: 50%;
+}
+
+div.word ul.word_ul{
+  vertical-align: middle;
+  text-align:center;
+list-style-type:none;
+}
+
+
+div.word ul.word_ul li{
+  vertical-align: middle;
+  text-align:center;
+}
+
+
+main.main ul.item_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 1px solid red; */
+  border-radius:10px;
+  margin-left:10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main.main ul.item_list > li{
+  border: 1px solid black;
+  width: calc((100% - 60px)/ 3 );
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius:10px;
+
+}
+  main.main ul.item_list > li:nth-child(3n){
+      margin-right: 0;
+      border-radius:10px;
+    }
+
+  @media all and (max-width:767px){
+    main.main ul.item_list > li{
+      width: calc((100% - 20px) / 2 );
+    }
+    main.main ul.item_list > li:nth-child(2n){
+        margin-right: 0;
+      }
+
+  }
+
+main.main ul.item_list > li a{
+  /* border:1px solid blue; */
+  display: block;
+  text-decoration: none;
+  border-radius:10px;
+
+
+}
+main.main ul.item_list > li a div.img_block{
+  /* border:1px solid red; */
+  font-size: 0px;
+  border-radius:10px;
+
+}
+
+
+main.main ul.item_list > li a div.img_block img{
+  /* border:1px solid red; */
+  font-size: 0px;
+  border-radius:10px;
+
+}
+
+
+main.main ul.item_list > li > a span.item_text{
+  display:inline-block;
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+  color:black;
+    text-align:center;
+  text-overflow: ellipsis;
+  font-size: 14px;
+
+
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../css/food_01.css">
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title></title>
+
+
+  </head>
+  <body>
+
+
+
+        <div class="banner_bg">
+          <button type="button" class="btn_hamburger">三</button>
+        </div> <!--上面的白邊-->
+        <header class="header">
+
+          <a href="./index.html" class="logo_img"><img src="../picture/title.png"></a>  <!--logo-->
+          <nav class="nav">
+            <ul class="link_list">
+              <li><a href="./about.html" class="-on">三點民宿</a></li>
+              <li><a href="./room_size.html" class="-on">房間住所</a></li>
+
+              <li><a href="./art..html" class="-on">藝文活動</a></li>
+              <li><a href="./food.html" class="-on">飲食商品</a></li>
+              <li><a href="./call_us.html" class="-on">聯絡我們</a></li>
+
+            </ul>
+            <a href="#"><img src="../picture/button_room_buy.png" border="0"><!--訂位按鈕-->
+            </a>
+            <a href="#"><img src="../picture/button_room_search.png" border="0"><!--查詢按鈕-->
+            </a>
+          </nav>
+        </header>
+
+    <!--以上是目錄-->
+
+
+
+
+
+
+
+
+    <div class="main_container">
+
+      <div class="food_page01">
+        <h2 class="three_bot">三點飲食</h1>
+        <div class="line"></div>
+        <div class="white_back"></div>
+        <ul class="food_word">
+          <li>從早晨六點半，民宿的餐食就為您準備妥當，</li>
+          <li>位於一樓的花園餐廳，有著貼心的起始時間，從精緻早餐到各式道地料理一應俱全。</li>
+          <li>等到晚上的時間，會轉化成適合談心，享受美食的戶外餐廳。 </li>
+        </ul>
+        <div class="pics">
+          <img src="../picture/meal_breakfast.jpg" alt="滑入顯示的圖片">
+          <img src="../picture/meal_dinner.jpg" alt="原本顯示的圖片">
+        </div>
+
+
+      </div>
+
+
+      <div class="food_page02">
+        <!--早午餐-->
+        <div class="breakfast_block"data-aos="fade-up">
+          <div class="breakfast_img"data-aos="fade-up">
+          <img src="../picture/meal_breakfast.jpg"/>
+        </div>
+
+          <h2 class="breakfast"data-aos="fade-up">花園早午餐 </h1>
+          <ul class="breakfast_list"data-aos="fade-up">
+            <li>從早晨六點半，民宿的餐食就為您準備妥當，</li>
+            <li>位於一樓的花園餐廳，有著貼心的起始時間，從精緻早餐到各式道地料理一應俱全。</li>
+            <li>等到晚上的時間，會轉化成適合談心，享受美食的戶外餐廳。 </li>
+          </ul>
+          <a href="#"><img src="../picture/button_room_food.png" border="0">
+          </a>
+        </div>
+
+        <!--晚餐-->
+        <div class="dinner_block"data-aos="fade-up">
+          <div class="dinner_img"data-aos="fade-up">
+          <img src="../picture/meal_dinner.jpg"/>
+        </div>
+          <h2 class="dinner"data-aos="fade-up">夜間法式餐廳</h1>
+          <ul class="dinner_list"data-aos="fade-up">
+            <li>從早晨六點半，民宿的餐食就為您準備妥當，</li>
+            <li>位於一樓的花園餐廳，有著貼心的起始時間，從精緻早餐到各式道地料理一應俱全。</li>
+            <li>等到晚上的時間，會轉化成適合談心，享受美食的戶外餐廳。 </li>
+          </ul>
+          <a href="#"><img src="../picture/button_room_food.png" border="0">
+          </a>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      // document.add
+      $(function(){
+
+        $("button.btn_hamburger").on("click",function(){
+
+          $("header.header").toggleClass("-on");
+
+
+        });
+
+      });
+      $(function(){
+        AOS.init();
+      });
+
+
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <script src="/jquery.fittext.js"></script>
+      <script>
+      $("#responsive_headline").fitText();
+    </script>
+
+
+
+
+
+
+
+    <footer class="footer">
+      &copy; Three Bot Homestay Wbsite
+    </footer>
+  </body>
+</html>

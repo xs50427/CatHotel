@@ -1,0 +1,181 @@
+div.title_menu{
+  /* border: 1px solid red; */
+  /* background-color: blue; */
+  background-repeat: no-repeat;
+
+
+  width: calc(100% - 260px);
+  margin-left: 260px;
+  max-width: 1000px;
+  background-size: cover;
+  position:relative;
+  overflow: hidden;
+
+
+
+
+}
+div.title_menu >img {
+  max-width: 100%;
+  max-height: 100%;
+
+
+
+}
+
+div.title_menu a{
+  /* border: 1px solid blue; */
+  position: absolute;
+  top:20px;
+  left:60%;
+  max-width: 250px;
+  /* display: none; */
+}
+
+div.title_menu a img{
+  width: 250px;
+
+}
+
+div.title_block{
+position: absolute;
+/* border:1px solid yellow; */
+/* top:50px; */
+margin-left:54%;
+margin-top:-35%;
+
+
+max-width: 500px;
+height: 200px;
+
+
+}
+
+span.homestay_word{
+
+  font-size: 4rem;
+  color:white;
+
+}
+
+span.homestay_word_list{
+  font-size: 1.8rem;
+
+  color:white;
+}
+
+
+@media all and (max-width:1023px){
+
+  div.title_block{
+    position: absolute;
+    /* border:1px solid yellow; */
+    /* top:50px; */
+    margin-left:50%;
+    margin-top:-35%;
+
+
+    max-width: 500px;
+    height: 200px;
+
+
+  }
+
+  div.title_menu a{
+    /* border: 1px solid blue; */
+    position: absolute;
+    top:20px;
+    left:60%;
+    max-width: 250px;
+    /* display: none; */
+  }
+
+  div.title_menu a img{
+    width: 150px;
+
+  }
+  span.homestay_word{
+
+    font-size: 2.8rem;
+    color:white;
+
+  }
+
+  span.homestay_word_list{
+    font-size: 1.3rem;
+
+    color:white;
+  }
+
+
+
+}
+
+@media all and (max-width:767px){
+  div.title_menu{
+    width:100%;
+    margin-left: 0px;
+    height: 500px;
+
+  }
+  div.title_block{
+  position: absolute;
+  /* border:1px solid yellow; */
+  /* top:50px; */
+  margin-left: 0;
+  display: block;
+  top:110%;
+  text-align:center;
+  left:20%;
+  vertical-align:middle;
+
+
+  max-width: 500px;
+  height: 200px;
+
+  }
+
+  div.title_menu >img {
+    max-width: none;
+
+    max-height: 100%;
+
+
+
+  }
+
+  div.title_menu a{
+    /* border: 1px solid blue; */
+    position: absolute;
+    display: block;
+    top:50px;
+    text-align:center;
+    left:20%;
+    vertical-align:middle;
+  }
+
+  div.title_menu a img{
+    width: 300px;
+
+  }
+
+
+
+  span.homestay_word{
+
+    font-size: 2.8rem;
+    color:white;
+    text-align:center;
+    margin-left:0;
+  }
+
+  span.homestay_word_list{
+    font-size: 1.3rem;
+    text-align:center;
+
+    color:white;
+  }
+
+
+
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../css/room_01.css">
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <title></title>
+    <style media="screen">
+
+
+    :root{
+      --header-height: 60px;
+      --aside-width: 240px;
+
+
+    }
+    body{
+      margin: 0;
+    }
+
+    img{
+      max-width:  100%;
+    }
+    </style>
+
+  </head>
+  <body>
+
+
+
+
+
+    <div class="banner_bg">
+      <button type="button" class="btn_hamburger">三</button>
+    </div> <!--上面的白邊-->
+    <header class="header">
+
+      <a href="./index.html" class="logo_img"><img src="../picture/title.png"></a>  <!--logo-->
+      <nav class="nav">
+        <ul class="link_list">
+          <li><a href="./about.html" class="-on">三點民宿</a></li>
+          <li><a href="./room_size.html" class="-on">房間住所</a></li>
+
+          <li><a href="./art..html" class="-on">藝文活動</a></li>
+          <li><a href="./food.html" class="-on">飲食商品</a></li>
+          <li><a href="./call_us.html" class="-on">聯絡我們</a></li>
+
+        </ul>
+        <a href="#"><img src="../picture/button_room_buy.png" border="0"><!--訂位按鈕-->
+        </a>
+        <a href="#"><img src="../picture/button_room_search.png" border="0"><!--查詢按鈕-->
+        </a>
+      </nav>
+    </header>
+    <!--以上是目錄頁，共用6頁-->
+
+
+    </div>
+    <div class="title_menu">
+
+       <img src="../picture/menu06.png">
+
+    </div><!--首頁-->
+
+
+
+
+
+
+    <main class="main">
+
+    <div class="word" data-aos="fade-up">
+
+      <h2>房間總覽</h2>
+        <ul class="word_ul">
+          <li>此民宿位於台北市商圈，離最近的捷運只有5分鐘的路途。</li>
+          <li>每間客房均配有無線網路、42吋液晶電視、冷暖空調、乾濕分離、浴缸、吹風機和冰箱。
+</li>
+          <li>
+          該民宿還設有共用休息室、旅遊諮詢台、行李寄存處、免費自行車租借和免費停車場。</li>
+
+          <br>
+          <br>
+          <br>
+
+
+        </ul>
+    </div>
+
+
+    <ul class="item_list"data-aos="flip-up">
+      <li>
+        <a href="#">
+          <div class="img_block" data-aos="flip-up">
+            <img src="../picture/r01.jpg">
+            </div>
+          <span class="item_text">101黑鑽四人套房</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_block" data-aos="flip-up">
+            <img src="../picture/r02.jpg">
+            </div>
+          <span class="item_text">102白紗四人套房</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_block" data-aos="flip-up">
+            <img src="../picture/r03.jpg">
+            </div>
+          <span class="item_text">103黑鑽雙人套房</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_block" data-aos="flip-up">
+            <img src="../picture/room02.jpg">
+            </div>
+          <span class="item_text">201鄉村式雙人套房</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_block" data-aos="flip-up">
+            <img src="../picture/r04.jpg">
+            </div>
+          <span class="item_text">202透天單人套房</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_block" data-aos="flip-up">
+            <img src="../picture/r05.jpg">
+            </div>
+          <span class="item_text">203夢幻四人套房</span>
+        </a>
+      </li>
+    </ul>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      // document.add
+      $(function(){
+
+        $("button.btn_hamburger").on("click",function(){
+
+          $("aside.aside").toggleClass("-on");
+
+
+        });
+
+      });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+      // document.add
+      $(function(){
+
+        $("button.btn_hamburger").on("click",function(){
+
+          $("header.header").toggleClass("-on");
+
+
+        });
+
+      });
+
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+      <script>
+
+
+      $(function(){
+        AOS.init();
+      });
+    </script>
+
+
+
+    <footer class="footer">
+      &copy; Three Bot Homestay Wbsite
+    </footer>
+
+  </body>
+</html>

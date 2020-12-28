@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-size: 16px;
+   font-weight:300;
+  font-family:‘cwTeXFangSong’, serif;
+
+}
